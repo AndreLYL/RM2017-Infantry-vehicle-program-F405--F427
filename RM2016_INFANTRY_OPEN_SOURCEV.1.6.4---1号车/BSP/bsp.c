@@ -5,13 +5,10 @@ void BSP_Init(void)
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);     
 	PWM_Configuration();
 	Led_Configuration(); 
-
-		RED_LED_ON();
-		delay_ms(1000);
-		GREEN_LED_ON();
-		delay_ms(1000);
-
-	
+//		RED_LED_ON();
+//		delay_ms(1000);
+//		GREEN_LED_ON();
+//		delay_ms(1000);
 	Laser_Configuration();
 	TIM2_Configuration();		
 	MPU6050_Initialize();    
